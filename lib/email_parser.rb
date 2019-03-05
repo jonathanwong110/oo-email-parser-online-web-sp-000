@@ -13,5 +13,6 @@ class EmailParser
   
   def parse
     csv_emails.split
+    csv_emails.split.each do |
   end
 end
