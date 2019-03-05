@@ -9,5 +9,6 @@ class EmailParser
   def parse(email)
     array = email.split (", ")
     emailparser = self.new
+    emailparser
   end
 end
