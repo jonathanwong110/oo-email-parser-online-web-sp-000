@@ -12,6 +12,8 @@ class EmailParser
   end
   
   def parse(csv_emails)
-    array = csv_emails.split (", ")
+    csv_emails.split.collect do |address|
+      address.split(","
+      end
   end
 end
